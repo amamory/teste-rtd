@@ -286,5 +286,4 @@ How to Create an Environment with Multiple Robots
 -------------
 
 If you want to create an environment with multiple robots, you can learn how to do it in the 
-`Simulating Multiple Robots <https://playerstage-manual.readthedocs.io/en/latest/docs/CONTROLLER_C.html#simulating-multiple-robots>`__ 
-page.
+`Simulating Multiple Robots <https://playerstage-manual.readthedocs.io/en/latest/docs/CONTROLLER_C.html#simulating-multiple-robots>`__ page.
