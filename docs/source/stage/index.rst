@@ -7,18 +7,6 @@ Stage Multi Robot Simulator
 Introduction
 -------------
 
-.. image:: ./images/stage.png
-    :align: center
-    :alt: sempre use alt para descreve a imagem p um deficiente visual
-
-explica brevemente, cita o artigo, mostra algum exemplo pronto.
-
-How to Create a New Environment
--------------
-
-The Basic
-~~~~~~~~~
-
 Player/Stage is a robot simulating tool, it comprises of one program, Player, 
 which is a Hardware Abstraction Layer. That means that it talks to the bits of 
 hardware on the robot (like a claw or a camera) and lets you control them with 
@@ -66,6 +54,10 @@ it can be presented to your code. Items described in the .world file should be d
 in the .cfg file if you want your code to be able to interact with that item (such as a robot), 
 if you don't need your code to interact with the item then this isn't necessary. The .cfg 
 file does all this specification using interfaces and drivers.
+
+
+How to Create a New Environment
+-------------
 
 Building an Empty World
 ~~~~~~~~~~~~~~~~~~
@@ -293,4 +285,6 @@ the path to the image in the .world file.
 How to Create an Environment with Multiple Robots
 -------------
 
-fazer tipo um tutorial bem passo a passo
+If you want to create an environment with multiple robots, you can learn how to do it in the 
+`Simulating Multiple Robots < https://playerstage-manual.readthedocs.io/en/latest/docs/CONTROLLER_C.html#simulating-multiple-robots>`__ 
+page.
