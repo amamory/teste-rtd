@@ -72,9 +72,9 @@ If you just want to manufacture these boards as they are, we recommend
 the following steps:
 
 1. Send the Gerber ZIP files
-   (`ard-shield <https://github.com/lsa-pucrs/donnie-assistive-robot-hw/blob/master/ard-shield/gerbers/ard_shield-160322-gerbers.zip>`__
+   (`arduino-shield <https://github.com/lsa-pucrs/donnie-assistive-robot-hw/blob/master/ard-shield/gerbers/ard_shield-160322-gerbers.zip>`__
    and
-   `rasp-shield <https://github.com/lsa-pucrs/donnie-assistive-robot-hw/blob/master/rasp-shield/gerber_files/rasp_shield-gerber_files-160118.zip>`__)
+   `raspberrypi-shield <https://github.com/lsa-pucrs/donnie-assistive-robot-hw/blob/master/rasp-shield/gerber_files/rasp_shield-gerber_files-160118.zip>`__)
    to manufacture to Seeedstudio. You should use the following tutorial
    `Fusion PCB Order Submission
    Guidelines <http://support.seeedstudio.com/knowledgebase/articles/422482-fusion-pcb-order-submission-guidelines>`__
@@ -84,7 +84,7 @@ Arduino Shield
 
 .. image:: ArduinoShield.jpg
 
-Rasp Shield
+Raspberry Pi Shield
 ~~~~~~~~~~~
 .. image:: RaspShield.jpg
 
@@ -95,8 +95,8 @@ After you receive the PCBs, then follow these steps to assemble the
 boards:
 
 1. First of all, separe and buy the components indicated in BOM file
-   (`ard-shield <https://github.com/lsa-pucrs/donnie-assistive-robot-hw/blob/master/ard-shield/BOM.txt>`__ and
-   `rasp-shield <https://github.com/lsa-pucrs/donnie-assistive-robot-hw/blob/master/rasp-shield/BOM.txt>`__);
+   (`arduino-shield <https://github.com/lsa-pucrs/donnie-assistive-robot-hw/blob/master/ard-shield/BOM.txt>`__ and
+   `raspberrypi-shield <https://github.com/lsa-pucrs/donnie-assistive-robot-hw/blob/master/rasp-shield/BOM.txt>`__);
 2. Print the PDF schemmatic and BOM file;
 3. Place and weld the componnects in the PCB with the BOM's indicated
    PART.
