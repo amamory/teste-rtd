@@ -7,12 +7,9 @@ Arduino
 Introduction
 -------------
 
-.. image:: ./images/arduino-shield.png
-    :align: center
-    :alt: sempre use alt para descreve a imagem p um deficiente visual
-
-explica o shield, e como conecta ele no arduino. colocar diagrama e descreve as pinagens.
-como carregar o firmware
+In this page you will find everything you need to know about the arduino used in the Donnie robot. 
+You'll learn how to assembly and manufacture the arduino part, how the firmware works in it  
+and everything else related to the arduino.
 
 Assembly the Arduino Part
 -------------
