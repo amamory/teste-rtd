@@ -57,6 +57,7 @@ Hardware Description
    source/building/index
    source/rpi/index
    source/arduino/index
+	 source/vib-belt/index
 
 Additional Resources
 ---------------------
