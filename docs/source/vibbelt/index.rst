@@ -1,4 +1,4 @@
-.. _vib-belt:
+.. _vibbelt:
 
 ===============
 Building Your Vibrating Belt
@@ -13,6 +13,11 @@ Manufacturing
 -------------
 
 o que um driver, interface, client, etc
+
+Assembly
+-------------
+
+Explicar como montar
 
 Firmware
 -------------
