@@ -55,10 +55,10 @@ Hardware Description
    :maxdepth: 3
    
    source/building/index
+	 source/vib-belt/index
    source/rpi/index
    source/arduino/index
-	 source/vib-belt/index
-
+	 
 Additional Resources
 ---------------------
 
