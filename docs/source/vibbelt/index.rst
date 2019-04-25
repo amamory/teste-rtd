@@ -1,4 +1,4 @@
-.. _vibbelt:
+.. _vib-belt:
 
 ===============
 Building Your Vibrating Belt
