@@ -17,7 +17,7 @@ o que um driver, interface, client, etc
 Assembly
 -------------
 
-Explicar como montar
+.. image:: ./vibbelt.png
 
 Firmware
 -------------
