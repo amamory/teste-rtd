@@ -57,7 +57,7 @@ Hardware Description
    source/building/index
    source/rpi/index
    source/arduino/index
-	 source/vibbelt/index
+   source/vibbelt/index
 	 
 Additional Resources
 ---------------------
