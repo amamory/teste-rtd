@@ -52,7 +52,7 @@ Hardware Description
 ------------------------
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 3
    
    source/building/index
    source/rpi/index
