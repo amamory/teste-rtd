@@ -52,12 +52,12 @@ Hardware Description
 ------------------------
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 3
    
    source/building/index
-	 source/vibbelt/index
    source/rpi/index
    source/arduino/index
+	 source/vibbelt/index
 	 
 Additional Resources
 ---------------------
