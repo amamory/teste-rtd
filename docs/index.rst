@@ -52,7 +52,7 @@ Hardware Description
 ------------------------
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 4
    
    source/building/index
 	 source/vibbelt/index
