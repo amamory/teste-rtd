@@ -12,7 +12,7 @@ explica brevemente, cita o artigo, mostra algum exemplo pronto.
 Manufacturing
 -------------
 
-.. image:: ./belt.png
+.. image:: ./Belt.png
 
 Assembly
 -------------
