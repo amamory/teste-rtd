@@ -7,9 +7,10 @@ Building Your Vibrating Belt
 Introduction
 -------------
 
-The vibrating belt is very important, because allows the person with visual 
-impairment to "feel" the environment aroud them. With the belt this person will be able to 
-better understand this environment and will have a better mobility in it.
+With the goal of improving the quality of life of people with visual impairment and helping 
+their mobility through a better perception of the environment it was created a tactile belt. 
+Capable of working with different intensities, the tactile belt makes the user perceive, 
+through vibrations, the approaching of an object.
 In this manual there's everything you need to know to build you own vibrating belt. You'll 
 learn how to manufacture your belt, how to assembly the parts and how the hardware and the 
 firmware work. 
