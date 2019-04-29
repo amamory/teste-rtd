@@ -12,7 +12,7 @@ explica brevemente, cita o artigo, mostra algum exemplo pronto.
 Manufacturing
 -------------
 
-o que um driver, interface, client, etc
+.. image:: ./belt.png
 
 Assembly
 -------------
