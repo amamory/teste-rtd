@@ -17,7 +17,8 @@ firmware work.
 
 Manufacturing
 -------------
-
+The belt hardware basically is composed by 12 haptic motors, an arduino nano, a PCB shield 
+and bypass connectors. 
 
 .. image:: ./Belt.png
 
