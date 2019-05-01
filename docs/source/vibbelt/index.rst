@@ -20,6 +20,8 @@ Manufacturing
 The belt hardware basically is composed by 12 haptic motors, an arduino nano, a PCB shield 
 and bypass connectors. 
 
+.. image:: ./schematic.png
+
 .. image:: ./Belt.png
 
 Assembly
