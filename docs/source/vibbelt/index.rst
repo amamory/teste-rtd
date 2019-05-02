@@ -20,6 +20,9 @@ Manufacturing
 The belt hardware basically is composed by 12 haptic motors, an arduino nano, a PCB shield 
 and bypass connectors. 
 
+If you want to manufacture the PCB shield you will find all the information you need (PCB design,
+schematics, eletrical diagrams, gerber files, BOM files) in the `Vib-belt Repository <https://github.com/lsa-pucrs/donnie-assistive-robot-hw/tree/master/vib-belt>`__.
+
 .. image:: ./schematic.png
 
 .. image:: ./Belt.png
