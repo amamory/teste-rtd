@@ -21,21 +21,30 @@ The belt hardware basically is composed by 12 haptic motors, an arduino nano, a 
 and bypass connectors. 
 
 If you want to manufacture the PCB shield you will find all the information you need (PCB design,
-schematics, eletrical diagrams, gerber files, BOM files) in the `Vib-belt Repository <https://github.com/lsa-pucrs/donnie-assistive-robot-hw/tree/master/vib-belt>`__.
-
+schematic, eletrical diagram, gerber file, BOM file) in the `Vib-belt Repository <https://github.com/lsa-pucrs/donnie-assistive-robot-hw/tree/master/vib-belt>`__.
+The PCB schematic is shown in the image bellow.
+ 
 .. image:: ./schematic.png
-
-.. image:: ./Belt.png
 
 Assembly
 -------------
+The belt has 2 motor vibracall MV50 modules in each of its 6 columns. These modules have three 
+wires connected to them (Gnd, Vcc-5V and the command sign). To connect the wires to the modules 
+we recommend that you use bypass connectors. The modules are spaced 10cm of each other in the two 
+directions. The image shows exactly how to organize the modules in the belt.
+
+.. image:: ./Belt.png
+
+The image bellow shows how to assembly the parts of the belt. If you prefer, the `Fritzing file <https://github.com/lsa-pucrs/donnie-assistive-robot-hw/blob/master/vib-belt/vib_belt_ci.fzz>`__ 
+is also avaliable for you. 
 
 .. image:: ./vibbelt.png
 
 Firmware
 -------------
 
-fazer tipo um tutorial usando os Cfg do Donnie como exemplo
+To make you belt work you'll need to upload the `.ino file <https://github.com/lsa-pucrs/donnie-assistive-robot-sw/blob/devel/firmware/vib_belt/vib_belt.ino>`__ 
+into your arduino.
 
 
 
