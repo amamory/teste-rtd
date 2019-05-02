@@ -43,7 +43,7 @@ is also avaliable for you.
 Firmware
 -------------
 
-To make you belt work you'll need to upload the `.ino file <https://github.com/lsa-pucrs/donnie-assistive-robot-sw/blob/devel/firmware/vib_belt/vib_belt.ino>`__ 
+To make you belt work you'll need to upload the `.ino file <https://github.com/lsa-pucrs/donnie-assistive-robot-sw/blob/devel/firmware/vib_belt/vib_belt_new/vib_belt_new.ino>`__ 
 into your arduino.
 
 
