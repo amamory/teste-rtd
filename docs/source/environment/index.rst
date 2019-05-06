@@ -4,11 +4,6 @@
 Building Donnie Robot Environment
 ===============
 
-Introduction
--------------
-
-
-
 Braille Cell Manual
 -------------------
 
