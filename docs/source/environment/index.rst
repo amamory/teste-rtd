@@ -22,8 +22,8 @@ in three types:
 1. Braille Cells fixation panel
 
 .. image:: figure1.png
-  
-   Figure 1: Fixation panel drawn in CorelDraw®
+  :alt: Figure 1: Fixation panel drawn in CorelDraw®
+   
 
 2. Braille cell for pin insertion that compose the representation in braille 
    of letters, numbers and symbols.
@@ -31,14 +31,13 @@ in three types:
 .. image:: figure2.png
    :alt: Figure 2: The base (a) and the braille cell (b), both drawn in CorelDraw®
 
-   Figure 2: The base (a) and the braille cell (b), both drawn in CorelDraw®
+
 
 3. Pins that are used for insertion in the braille cells.
 
 .. image:: figure3.png
    :alt: Figura 3: Pins that were drawn in CorelDraw®
 
-   Figura 3: Pins that were drawn in CorelDraw®
 
 Cutting the Parts
 ~~~~~~~~~~~~~~
@@ -58,7 +57,7 @@ parts can be seen in the images bellow.
 .. image:: figure4.png
    :alt: Figure 4: Braille cells fixation panel cutted by the laser cutting machine
 
-   Figure 4: Braille cells fixation panel cutted by the laser cutting machine
+
 
 
 2. Braille cell for pin insertion that compose the representation in braille of 
@@ -70,13 +69,10 @@ parts can be seen in the images bellow.
 .. image:: figure2.png
    :alt: Figure 5: The white acrylic base (a) and the blue EVA braille cell (b)
 
-   Figure 5: The white acrylic base (a) and the blue EVA braille cell (b)
-
 
 .. image:: figure6.png
    :alt: Figure 6: Blue EVA cells cutted by the laser cutting machine
 
-   Figure 6: Blue EVA cells cutted by the laser cutting machine
 
 
 3. Pins that are used for insertion in the braille cells:
@@ -87,8 +83,6 @@ parts can be seen in the images bellow.
 
 .. image:: figure7.png
    :alt: Figure 7: Red acrylic pins cutted by the laser cutting machine
-
-   Figure 7: Red acrylic pins cutted by the laser cutting machine
 
 
 Assembling the Parts
@@ -103,9 +97,7 @@ the cells could slip through the fixation panel and that it could also be easily
 .. image:: figure2.png
    :alt: Figure 8: The EVA braille cell (b) was glued to the white acrylic part (a)
 
-   Figure 8: The EVA braille cell (b) was glued to the white acrylic part (a)
-
-
+ 
 The result after the fixation panel and the braille cell was assembled is shown below:
 
 .. image:: figure9.png
@@ -119,7 +111,7 @@ The result after the fixation panel and the braille cell was assembled is shown 
 .. image:: figure11.png
    :alt: Figure 11: Fixation panel, braille cell and pins that are used to represent letters, numbers and symbols
 
-   Figure 11: Fixation panel, braille cell and pins that are used to represent letters, numbers and symbols
+
 
 
 
