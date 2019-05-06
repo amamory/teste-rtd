@@ -116,7 +116,6 @@ The result after the fixation panel and the braille cell was assembled is shown 
 .. image:: figure10.png
    :alt: Figure 10: Braille cell and pins used to represent letters, numbers and symbols
 
-   Figure 10: Braille cell and pins used to represent letters, numbers and symbols
 
 .. image:: figure11.png
    :alt: Figure 11: Fixation panel, braille cell and pins that are used to represent letters, numbers and symbols
