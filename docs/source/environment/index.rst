@@ -22,8 +22,7 @@ in three types:
 1. Braille Cells fixation panel
 
 .. image:: figure1.png
-   :alt: Figure 1: Fixation panel drawn in CorelDraw®
-
+  
    Figure 1: Fixation panel drawn in CorelDraw®
 
 2. Braille cell for pin insertion that compose the representation in braille 
