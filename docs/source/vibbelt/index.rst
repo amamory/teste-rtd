@@ -21,10 +21,10 @@ The belt hardware basically is composed by 12 haptic motors, an arduino nano, a 
 and bypass connectors. 
 
 If you want to manufacture the PCB shield you will find all the information you need (PCB design,
-schematic, eletrical diagram, gerber file, BOM file) in the `Vib-belt Repository <https://github.com/lsa-pucrs/donnie-assistive-robot-hw/tree/master/vib-belt>`__.
+schematic, eletrical diagram, BOM file) in the `Vib-belt Repository <https://github.com/lsa-pucrs/donnie-assistive-robot-hw/tree/master/vib-belt>`__.
 The PCB schematic is shown in the image bellow.
  
-.. image:: ./schematic.png
+.. image:: ./schematiceagle.png
 
 Assembly
 -------------
@@ -42,6 +42,8 @@ is also avaliable for you.
 
 Firmware
 -------------
+
+.. image:: ./schematic.png
 
 To make you belt work you'll need to upload the `.ino file <https://github.com/lsa-pucrs/donnie-assistive-robot-sw/blob/devel/firmware/vib_belt/vib_belt_new/vib_belt_new.ino>`__ 
 into your arduino.
