@@ -44,11 +44,13 @@ Firmware
 -------------
 
 When using physical robot
-.. image:: beltrobot.png    
+
+.. image:: ./beltrobot.png    
 
 
 When using the simulation environment
-.. image:: beltstage.png
+
+.. image:: ./beltstage.png
 
 To make you belt work you'll need to upload the `.ino file <https://github.com/lsa-pucrs/donnie-assistive-robot-sw/blob/devel/firmware/vib_belt/vib_belt_new/vib_belt_new.ino>`__ 
 into your arduino.
