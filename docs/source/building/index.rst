@@ -140,5 +140,7 @@ through the computer. The robot’s camera is also connected through
 the Rasp, that receives the image from the camera and sends to the 
 Player, which processes the images.
 
+.. image:: package.png
+
 Finnaly, to make your robot work you'll need to upload the `.ino file <https://github.com/lsa-pucrs/donnie-assistive-robot-sw/blob/devel/firmware/donnie/firmware/firmware.ino>`__ 
 into the arduino. 
