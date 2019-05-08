@@ -87,7 +87,7 @@ into lower level commands and then sends them to the arduino. The arduino,
 in turn, commands directly the sensors and the actuators of the physical robot.
 
 
-.. image:: schematic.png
+.. image:: firmware.png
 
 
 The firmware is the code that intermediate between the GoDonnie 
