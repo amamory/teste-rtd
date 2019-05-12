@@ -1,4 +1,8 @@
-# teste-rtd
+# donnie-dev-manual
 
+.. image:: https://readthedocs.org/projects/donnie-developer-manual/badge/?version=latest
+:target: https://donnie-developer-manual.readthedocs.io/en/latest/?badge=latest
+:alt: Documentation Status
 
-https://teste-rtd.readthedocs.io/en/latest/source/getting_started/index.html
+[Donnie Developer Manual](http://donnie-developer-manual.rtfd.io/)
+
