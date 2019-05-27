@@ -202,7 +202,8 @@ by Dallas/Maxim.
         return crc;
     }
 
-
+Arduino-based Firmware
+~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: code.png
 
