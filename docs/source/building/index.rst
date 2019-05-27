@@ -113,6 +113,12 @@ XYZ.
 Arduino Firmware
 -----------------
 
+Firmware Overview Section
+--------------------------
+
+To make your robot work you'll need to download the `.ino file <https://github.com/lsa-pucrs/donnie-assistive-robot-sw/blob/devel/firmware/donnie/firmware/firmware.ino>`__ 
+and upload it into the arduino. 
+
 Before explaining how the arduino firmware arrangement works,
 it’s important to learn a little about where the firmware takes 
 place throughout the project.
@@ -139,6 +145,10 @@ server runs in the Rasp, which is connected with the GoDonnie
 through the computer. The robot’s camera is also connected through 
 the Rasp, that receives the image from the camera and sends to the 
 Player, which processes the images.
+
+
+Detailed Firmware Section
+-------------------------
 
 Special Bytes Definition
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -232,5 +242,3 @@ new message. The firmware and driver codes have comments to give clues to
 the user as in where to change.
 
 
-Finnaly, to make your robot work you'll need to upload the `.ino file <https://github.com/lsa-pucrs/donnie-assistive-robot-sw/blob/devel/firmware/donnie/firmware/firmware.ino>`__ 
-into the arduino. 
