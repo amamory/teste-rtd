@@ -140,6 +140,68 @@ through the computer. The robot’s camera is also connected through
 the Rasp, that receives the image from the camera and sends to the 
 Player, which processes the images.
 
+Special Bytes Definition
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Some bytes have a special meaning at certain points within a packet. 
+These are given symbolic names as follows.
+
+::
+
+    SYNC0   0xFA
+    SYNC1   0xFB
+    END     0xFE
+    ARG     0x3B
+    NARG    0x1B
+    SARG    0x2B
+
+When integers are sent as arguments, they are always inserted into the byte
+stream as 2 bytes. The first byte is the low byte, the second byte is the high
+byte of the integer.
+
+
+Packet Protocol
+~~~~~~~~~~~~~~~~
+
+The protocol is based on command packets that are sent to the controller,
+and information packets that are received by the host PC. All packets have
+the following format.
+
+::
+
+    SYNC0
+    SYNC1
+    count
+    count-2 bytes of data
+    checksum (1 byte)
+
+
+Checksum Calculation
+~~~~~~~~~~~~~~~~~~~~~
+
+The checksum is calculated on the full packet. The checksum algorithm is given here
+in C code. The argument `size` is the number of bytes, and `*msg` is the vector
+of bytes in the packet. This checksum algorithm is based on the `CRC8 formulas <http://www.leonardomiliani.com/en/2013/un-semplice-crc8-per-arduino/`_
+by Dallas/Maxim.
+
+::
+    uint8_t Player::checksum(const uint8_t *msg, uint8_t size) {
+        uint8_t crc = 0x00;
+        while (size--) {
+            uint8_t extract = *msg++;
+            for (uint8_t tempI = 8; tempI; tempI--){
+                uint8_t sum = (crc ^ extract) & 0x01;
+                crc >>= 1;
+                if (sum) {
+                    crc ^= 0x8C;
+                }
+                extract >>= 1;
+            }
+        }
+        return crc;
+    }
+
+
 
 .. image:: code.png
 
