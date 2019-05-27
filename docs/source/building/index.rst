@@ -140,6 +140,22 @@ through the computer. The robot’s camera is also connected through
 the Rasp, that receives the image from the camera and sends to the 
 Player, which processes the images.
 
+.. image:: code.png
+
+The main loop in the image above (lines 8 to 15) performs the robot control. It 
+initially reads incoming packets from the serial port (line 9), executes the 
+commands (e.g. move commands, line 10), updates the sensor readings into the 
+internal memory (line 11), updates the indicators (LEDs, buzzer, vibration motors) 
+based on the command and sensor readings (line 12), and sends the new data via 
+serial port to the Player Driver (line 13). The last line updates counters that 
+control the frequency to send the serial messages.
+
+
+The Enlace-level of the serial messages presented in figure below has two 
+constants bytes of header, one byte of packet length, one byte for message 
+types, variable number of bytes for the payload, and a final byte with checksum. 
+Each functionality in the Arduino board has a corresponding message type. 
+
 .. image:: package.png
 
 Finnaly, to make your robot work you'll need to upload the `.ino file <https://github.com/lsa-pucrs/donnie-assistive-robot-sw/blob/devel/firmware/donnie/firmware/firmware.ino>`__ 
