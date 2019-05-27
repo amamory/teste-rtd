@@ -181,10 +181,11 @@ Checksum Calculation
 
 The checksum is calculated on the full packet. The checksum algorithm is given here
 in C code. The argument `size` is the number of bytes, and `*msg` is the vector
-of bytes in the packet. This checksum algorithm is based on the `CRC8 formulas <http://www.leonardomiliani.com/en/2013/un-semplice-crc8-per-arduino/`_
+of bytes in the packet. This checksum algorithm is based on the `CRC8 formulas <http://www.leonardomiliani.com/en/2013/un-semplice-crc8-per-arduino/>`_
 by Dallas/Maxim.
 
 ::
+    
     uint8_t Player::checksum(const uint8_t *msg, uint8_t size) {
         uint8_t crc = 0x00;
         while (size--) {
