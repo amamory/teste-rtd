@@ -180,7 +180,7 @@ Checksum Calculation
 ~~~~~~~~~~~~~~~~~~~~~
 
 The checksum is calculated on the full packet. The checksum algorithm is given here
-in C code. The argument `size` is the number of bytes, and `*msg` is the vector
+in C code. The argument ``size`` is the number of bytes, and ``*msg`` is the vector
 of bytes in the packet. This checksum algorithm is based on the `CRC8 formulas <http://www.leonardomiliani.com/en/2013/un-semplice-crc8-per-arduino/>`_
 by Dallas/Maxim.
 
