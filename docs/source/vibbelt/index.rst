@@ -35,7 +35,7 @@ directions. The image shows exactly how to organize the modules in the belt.
 
 .. image:: ./Belt.png
 
-The image bellow shows how to assembly the parts of the belt. If you prefer, the `Fritzing file <https://github.com/lsa-pucrs/donnie-assistive-robot-hw/blob/master/vib-belt/vib_belt_ci.fzz>`__ 
+The image bellow shows how to assembly the parts of the belt. If you prefer, the `Fritzing file <https://github.com/lsa-pucrs/donnie-assistive-robot-hw/blob/master/vib-belt/vib_belt_nano.fzz>`__ 
 is also avaliable for you. 
 
 .. image:: ./vibbelt.png
