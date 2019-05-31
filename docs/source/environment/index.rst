@@ -106,7 +106,9 @@ The result after the fixation panel and the braille cell was assembled is shown 
 .. image:: figure11.png
    :alt: Figure 11: Fixation panel, braille cell and pins that are used to represent letters, numbers and symbols
 
+Final result!!
 
+.. image:: figure12.jpeg
 
 
 
