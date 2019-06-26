@@ -15,5 +15,7 @@ The list of contributors to this document.
 
 	* @Davi
 
+	* `@Gabrielle Pothin <https://github.com/Gabrielle-pr>`_
+
 	* `@Beltrano com webpage <https://github.com/Amahmoud1994>`_
 
