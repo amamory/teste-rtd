@@ -4,13 +4,6 @@
 Arduino 
 ===============
 
-Introduction
--------------
-
-In this page you will find everything you need to know about the arduino used in the Donnie robot. 
-You'll learn how to assembly and manufacture the arduino part, how the firmware works in it  
-and everything else related to the arduino.
-
 Arduino Firmware
 -----------------
 
