@@ -18,51 +18,62 @@ Download this VM file (comming soon!), with all the software pre-installed and r
 The VM file can be run with a Virtualization tool such as `VirtualBox <https://www.virtualbox.org>`_.
 
 
-_`Install Donnie's Software with the Debian Package`
+_`Operating System Requirement`
 -----------------------------------------------------
+- Currently this project requires Ubuntu 16.04 `Ubuntu 16.04 <http://releases.ubuntu.com/16.04/>`_ (Xenial Xerus) is the recommended OS distribution. For older computers or VMs, `Lubuntu 16.04 <http://cdimage.ubuntu.com/lubuntu/releases/16.04/release/>`_ or `Ubuntu Mate 16.04 <https://ubuntu-mate.org/trusty/>`_ are recommended.
+- Git installed.
 
-Ubuntu 14.04 (`Trusty Tahr <http://releases.ubuntu.com/14.04/>`_) is the recommended OS distribution. For older computers or VMs, `Lubuntu <http://cdimage.ubuntu.com/lubuntu/releases/14.04/release/>`_ 14.04 or `Ubuntu Mate <https://ubuntu-mate.org/download/index.html>`_ 14.04 are recommended.
-
-Download the package (comming soon!) and execute the following steps in the terminal:
-
-- It is recommended to update your packages before the instalation:
-
-.. code-block:: bash
-
-	sudo apt-get install update
-
-- To install, you can double-click the ".deb" package or run:
-
-.. code-block:: bash
-
-	sudo dpkg -i donnie_1.0.0_amd64.deb
-
-- In case of missing dependencies, try:
-
-.. code-block:: bash
-
-	sudo apt-get install -f
-
-- To uninstall:
-
-.. code-block:: bash
-
-	sudo dpkg -r donnie
-
-
-_`Build and Install Donnie's Software`
+_`Compile and Install Donnie Software on a Desktop Computer`
 -------------------------------------
-
-Ubuntu 14.04 (`Trusty Tahr <http://releases.ubuntu.com/14.04/>`_) is the recommended OS distribution. For older computers or VMs, `Lubuntu <http://cdimage.ubuntu.com/lubuntu/releases/14.04/release/>`_ 14.04 or `Ubuntu Mate <https://ubuntu-mate.org/download/index.html>`_ 14.04 are recommended.
-
-Open a terminal, download the installation script and execute it:
+Open a terminal, and execute the following commands:
 
 .. code-block:: bash
 
-	mkdir ~/donnie; cd ~/donnie
-	wget https://github.com/lsa-pucrs/donnie-assistive-robot-sw/raw/devel/install.sh
-	chmod +x ./install.sh
-	./install.sh
+mkdir ~/donnie; cd ~/donnie
+git clone --recurse-submodules -b devel https://github.com/lsa-pucrs/donnie-assistive-robot-sw.git
+cd donnie-assistive-robot-sw
+chmod +x ./install.sh
+export DONNIE_PATH=/opt/donnie 
+./install.sh
+
+After the execution of the last command above, if the installation finished successfully you are ready to go! note:The last command above, in general, requires a lot of time to finish.
+
+Initializing the environment
+^^^^^^^^^^^^^^^^^^^^^^^
+With Donnie's environment installed on your computer, open a new terminal (crtl + alt + t) and run the command:
+
+.. code-block:: bash
+
+	donnie_player
+
+Wait a few seconds for the environment to boot, and then run GoDonnie. There are two modes of execution:
+Terminal mode: The code must be entered at the GoDonnie terminal and is executed by pressing the ESC key.
+
+.. code-block:: bash
+
+	GoDonnie -t
+
+File Mode: Allows you to play GoDonnie files (extension .gd or .txt)
+
+.. code-block:: bash
+
+	GoDonnie -f <filename>
+
+Some examples of GoDonnie files are in the directory.
+
+.. code-block:: bash
+
+	/opt/donnie/test/GoDonnie/
+	
+Note: To execute a file that is in another directory, you must indicate the directory path where it is located. For example, the file test.gd is in the /opt/donnie/test/GoDonnie/directory, to run it use the GoDonnie command as follows:
+	
+	- GoDonnie -f /opt/donnie/test/GoDonnie/test.gd
+	
+	Or go to the directory the file is in, before executing:
+	
+	- cd /opt/donnie/test/GoDonnie/
+	
+	- GoDonnie -f test.gd
 
 Configuring Donnie
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -73,9 +84,11 @@ However, advanced parameters can be set if the user has experience with the appr
 The build system is based on cmake, so experience with Linux, `make <https://www.gnu.org/software/make/>`_, and `cmake <https://cmake.org/>`_ is required. All the individual parts of Donnie's Software Stack are also based on CMake. These are the software parts that can be customized, each with its own set of parameters:
 
 - raspicam driver
-- Player
-- Stage
+- `Player <https://github.com/playerproject/player>`_
+- `Stage <https://github.com/rtv/Stage>`_
 - Donnie Software
+
+each of these packages have their one sets of parameters.
 
 Developers interested in customization might want to read the following files:
 
