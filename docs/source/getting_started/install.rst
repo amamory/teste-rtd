@@ -4,20 +4,6 @@
 How to Install Donnie's Software
 ==================================
 
-There are several ways to install Donnie's software environment:
-
-- `Run Donnie's Software from a Virtual Machine (VM)`_
-- `Install Donnie's Software with the Debian Package`_
-- `Build and Install Donnie's Software`_
-
-
-_`Run Donnie's Software from a Virtual Machine (VM)`
---------------------------------------------------
-
-Download this VM file (comming soon!), with all the software pre-installed and ready to run.
-The VM file can be run with a Virtualization tool such as `VirtualBox <https://www.virtualbox.org>`_.
-
-
 _`Operating System Requirement`
 -----------------------------------------------------
 - Currently this project requires Ubuntu 16.04 `Ubuntu 16.04 <http://releases.ubuntu.com/16.04/>`_ (Xenial Xerus) is the recommended OS distribution. For older computers or VMs, `Lubuntu 16.04 <http://cdimage.ubuntu.com/lubuntu/releases/16.04/release/>`_ or `Ubuntu Mate 16.04 <https://ubuntu-mate.org/trusty/>`_ are recommended.
@@ -29,14 +15,14 @@ Open a terminal, and execute the following commands:
 
 .. code-block:: bash
 
-mkdir ~/donnie; cd ~/donnie
-git clone --recurse-submodules -b devel https://github.com/lsa-pucrs/donnie-assistive-robot-sw.git
-cd donnie-assistive-robot-sw
-chmod +x ./install.sh
-export DONNIE_PATH=/opt/donnie 
-./install.sh
+	mkdir ~/donnie; cd ~/donnie
+	git clone --recurse-submodules -b devel https://github.com/lsa-pucrs/donnie-assistive-robot-sw.git
+	cd donnie-assistive-robot-sw
+	chmod +x ./install.sh
+	export DONNIE_PATH=/opt/donnie 
+	./install.sh
 
-After the execution of the last command above, if the installation finished successfully you are ready to go! note:The last command above, in general, requires a lot of time to finish.
+After the execution of the last command above, if the installation finished successfully you are ready to go! note:The last command above, in general, requires lot of time to finish.
 
 Initializing the environment
 ^^^^^^^^^^^^^^^^^^^^^^^
